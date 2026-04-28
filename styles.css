@@ -251,7 +251,6 @@ a {
   border-radius: 34px;
   box-shadow: var(--shadow);
   background: #dce8d7;
-  transform: rotate(2deg);
 }
 
 .hero-card img {
