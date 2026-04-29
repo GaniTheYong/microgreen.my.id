@@ -346,11 +346,18 @@ a {
   border-radius: var(--radius-lg);
 }
 
-.type-card img {
+.type-card img,
+.type-card-image {
   width: 100%;
   aspect-ratio: 1.1;
   object-fit: cover;
   background: linear-gradient(135deg, rgba(242, 201, 76, 0.3), rgba(47, 125, 74, 0.16));
+}
+
+.type-card-image-contain {
+  object-fit: contain;
+  padding: 18px;
+  background: linear-gradient(135deg, rgba(242, 201, 76, 0.22), rgba(47, 125, 74, 0.12));
 }
 
 .type-card div {
